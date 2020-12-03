@@ -1,40 +1,39 @@
-<!doctype html>
-
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-
-    <title>About Me</title>
-    <link rel="stylesheet" href="css/style.css">
-
+    <title>Jiggle Into JavaScript</title>
 </head>
-
 <body>
-    <header class='masthead'>
-        <p class='masthead-intro'>Hi I'm</p>
-        <h1 class='masthead-heading'>Josie Collins</h1>
-    </header>
-    <section class="details">
-      <h1>Introduction</h1>
-      <p>I'm 19 and I'm a gamer</p>
-      <h1>Where I'm From</h1>
-      <p>Minnesota</p>
-      <h1>What are your favorite hobbies?</h1>
-      <p>Reading, writing, drawing, playing video games, and hanging out with my pets</p>
-      <h1>What's your dream job?</h1>
-      <p>Story writer or game developer</p>
-      <h1>Where do you live?</h1>
-      <p>Same country as Shadow the Hedgehog</p>
-      <h1>Why do you want to be a web developer?</h1>
-      <p>To be fair, you must have a very high iq to... jk I think the skills are useful, especially in this day and age.</p>
-    </section>
 
-    <footer id="footer">
-        <ul class="social">
-          <li><a href="http://www.github.com/usernamehere">Github</a></li>
-        </ul>
-    </footer>
+    <p>Press the buttons to move the box!</p>
+
+    <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
+
+    <button id="shrinkBtn">Shrink</button>
+    <button id="growBtn">Grow</button>
+    <button id="resetBtn">Reset</button>
+
+    <script type="text/javascript">
+
+        document.getElementById("shrinkBtn").addEventListener("click", function(){
+
+            document.getElementById("box").style.height = "25px";
+
+        });
+
+        document.getElementById("growBtn").addEventListener("click", function(){
+
+            document.getElementById("box").style.height = "250px";
+
+        });
+
+        document.getElementById("resetBtn").addEventListener("click", function(){
+
+            document.getElementById("box").style.height = "150px";
+
+        });
+
+    </script>
+
 </body>
-
 </html>

@@ -1,0 +1,28 @@
+errors of boo the dog
+html:
+-forgot <h1> </h1> for header "Boo the Dog Fan Page!"
+- "</div>
+
+		<div class="row">
+	<div class="col-sm-12">
+		<div class="panel panel-primary">
+		<div class="panel-heading">Instructions</div>
+			<div class="panel-body text-center">
+					<h4>Oh no! Someone has vandalized our Boo 'The Cutest Dog In The World' fanpage!</h4>
+				<h4>There are a bunch of errors on this page!</h4>
+				<h4>Try your best to find them all!</h4>
+				</div>
+				</div>
+		</div>
+	</div>" 
+at least the first <div>s are organized incorrectly
+-"img class" missing initial "<" at beginning and ">" at end
+-"<div class="row text-center">" incorrectly inputted (whole <div> of this section needs redoing) for color changing
+-for favorite things: forgot <li> and </li> before all the inputs
+-for growth and shrink: the end </div> was in the wrong place
+-for button changing colors, the "text(color)" didn't match the colors wanted
+-<div> was in wrong place for button pressing
+
+
+Logic Errors:
+-forgot to record, but a lot of stuff was missing quotation marks. Some things were incorrectly indented. There was nothing that needed major changing.
